@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+   
+    <style>
+        /* Customize Talisman CSS here */
+        
+        .paragraph {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .space {
+            height: 40px; /* Adjust the space height */
+        }
+        .certificates {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .certificate {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .skill {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .responsibilities {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .responsibility {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .education {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .education p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .education ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .education ul li {
+            margin-bottom: 20px;
+        }
+
+        .education ul li p {
+            margin: 0;
+        }
+        .about-me {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .about-me p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .about-me img {
+            border-radius: 50%;
+            height: 200px; /* Set maximum height */
+            width: auto;
+            max-width: 100%; /* Ensure image doesn't exceed container width */
+        }
+    </style>
+      
+    
+</head>
+
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-900 p-6">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-between">
+                <div class="text-white">
+                    <a href="#" class="text-lg font-bold">My Portfolio</a>
+                </div>
+                <div>
+                    <a href="#projects" class="text-white hover:text-gray-400 mx-2">Projects</a>
+                    <a href="#about" class="text-white hover:text-gray-400 mx-2">About</a>
+                    <a href="#contact" class="text-white hover:text-gray-400 mx-2">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold">Hello, I'm Sumedh Ghodke </h1>
+            <p class="mt-4 text-xl">A Software Developer </p>
+        </div>
+    </section>
+    <div class="space"></div>
+    <div class="container mx-auto">
+        <p class="paragraph">To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills. To
+            secure a responsible career opportunity to fully utilize my training and skills, while making a significant
+            contribution to the success of the company. To leverage my diverse background and passion for innovation in a
+            dynamic environment where I can drive impactful change while continuously enhancing my expertise and
+            fostering collaborative growth within the organization.</p>
+    </div>
+    
+    
+    <!-- Projects Section -->
+    <section id="projects" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+            <!-- Add your projects here -->
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Cards -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Project 1</h3>
+                    <p class="text-gray-700 mb-4"> 
+                        
+                        <div class="container mx-auto">
+                            <div class="prose">
+                                <h3 class="font-semibold">Farms to folks, Aurangabad, Maharashtra/ Sept 2020 – Ongoing</h3>
+                                <ul class="list-disc ml-8">
+                                    <li>Studying the perception of customers.</li>
+                                    <li>Identifying the target customers.</li>
+                                    <li>Providing inputs to increase topline and bottom line of products in stores.</li>
+                                    <li>Coordinate and schedule meetings and conferences with internal and external stakeholders.</li>
+                                    <li>Prepare and distribute meeting agendas, minutes, and other relevant materials.</li>
+                                </ul>
+                            </div>
+                        </div>
+                  
+                
+                    <a href="#" class="text-blue-500 hover:underline"></a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Project 2</h3>
+                    <p class="text-gray-700 mb-4">
+                       
+                        <div class="container mx-auto">
+                            <div class="prose">
+                                <h3 class="font-semibold">SSB interview course under Major Subhash Sasne</h3>
+                                <ul class="list-disc ml-8">
+                                    <li>An analytical study on website flexifunnel.</li>
+                                    <li>Studied the work flow of the website.</li>
+                                    <li>Conducted market survey on various schools and colleges of
+                                        defence asperents.</li>
+                                    <li>Designed & Developed website on flexifunnel and WordPress.</li>
+                                    <li>Designed Webpages using HTML CSS JS.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                </p>
+                    <a href="#" class="text-blue-500 hover:underline"></a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Project 3</h3>
+                    <p class="text-gray-700 mb-4">
+                       
+                        <div class="container mx-auto">
+                            <div class="prose">
+                                <h3 class="font-semibold">Travel website (Freelancer)</h3>
+                                <ul class="list-disc ml-8">
+                                    <li>Spearheaded the creation of a dynamic travel website. Studied the work flow of the website,  leveraging HTML, CSS, and JavaScript.</li>
+                                    
+                                    <li>involved designing the user interface, implementing responsive layouts, and enhancing user experience with interactive features. </li>
+                                    <li> Through JavaScript, its functionalities like search filters, booking forms, ensuring seamless navigation and engagement for users.</li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    
+                </p>
+                    <a href="#" class="text-blue-500 hover:underline"></a>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+<!--certifications section -->
+
+<section class="bg-gray-100 py-12">
+    <div class="container mx-auto">
+        <h2 class="text-2xl font-semibold mb-6">Certifications</h2>
+        <div class="certificates">
+            <div class="certificate">
+                <p>Data analytics by Google</p>
+            </div>
+            <div class="certificate">
+                <p>Java Programming</p>
+            </div>
+            <div class="certificate">
+                <p>Android Studios</p>
+            </div>
+            <div class="certificate">
+                <p>Python programming</p>
+            </div>
+            <div class="certificate">
+                <p>My SQL basics</p>
+            </div>
+            <!-- Add more certificates here -->
+        </div>
+    </div>
+</section>
+    
+<!--Skills section -->
+<section class="bg-gray-100 py-12">
+    <div class="container mx-auto">
+        <h2 class="text-2xl font-semibold mb-6">Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <p>Critical Thinking</p>
+            </div>
+            <div class="skill">
+                <p>Negotiation</p>
+            </div>
+            <div class="skill">
+                <p>Communication</p>
+            </div>
+            <div class="skill">
+                <p>Decision Making</p>
+            </div>
+            <div class="skill">
+                <p>Team Work</p>
+            </div>
+            <div class="skill">
+                <p>Empathy</p>
+            </div>
+            <div class="skill">
+                <p>Adaptability</p>
+            </div>
+            <div class="skill">
+                <p>Liveliness</p>
+            </div>
+            <div class="skill">
+                <p>Public Speaking</p>
+            </div>
+            <div class="skill">
+                <p>Cooperation</p>
+            </div>
+            <div class="skill">
+                <p>Leadership Skills</p>
+            </div>
+            <div class="skill">
+                <p>Responsible</p>
+            </div>
+            <div class="skill">
+                <p>Active Listening</p>
+            </div>
+            <div class="skill">
+                <p>Initiative</p>
+            </div>
+            <div class="skill">
+                <p>Collaboration</p>
+            </div>
+            <div class="skill">
+                <p>Courage</p>
+            </div>
+            <!-- Add more skills here -->
+        </div>
+    </div>
+</section>
+
+<!--Position -->
+<section class="bg-gray-100 py-12">
+    <div class="container mx-auto">
+        <h2 class="text-2xl font-semibold mb-6">Positions of Responsibility</h2>
+        <ul class="responsibilities">
+            <li class="responsibility">
+                <h3>Event Host at Prasthaan (Swami Vivekananda College)</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </li>
+            <li class="responsibility">
+                <h3>Event Head of Cultural program (Swami Vivekananda College)</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </li>
+            <li class="responsibility">
+                <h3>Event Management at Pagoda Gorai (6 Dec. Mahaparinirvan Din Helping devoute to get BMC Services)</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </li>
+            <!-- Add more positions of responsibility here -->
+        </ul>
+    </div>
+</section>
+<!--education section-->
+<section class="bg-gray-100 py-12">
+    <div class="container mx-auto">
+        <h2 class="text-2xl font-semibold mb-6">Education</h2>
+        <div class="education">
+            <ul>
+                <li>
+                    <h3>Master of Computer Applications (MCA)</h3>
+                    <p>Deccan Education Society’s Navinchandra Mehta Institute of Technology & Development, Mumbai University</p>
+                </li>
+                <li>
+                    <h3>Bachelor of Computer Science (BCS)</h3>
+                    <p>Swami Vivekananda College of Management Science, Aurangabad 2022</p>
+                    <p>Percentage: 81.73%</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">About Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="text-gray-800">Hello! I'm Sumedh Ghodke, a dedicated software developer with a passion for innovation and problem-solving. With a Master's degree in Computer Applications from Deccan Education Society’s Navinchandra Mehta Institute of Technology & Development, Mumbai University, and a Bachelor's degree in Computer Science from Swami Vivekananda College of Management Science, Aurangabad, I bring a strong foundation in computer science coupled with hands-on experience in various programming languages and technologies. Throughout my professional journey, I have actively contributed to projects aimed at enhancing customer experience, optimizing processes, and driving impactful change within organizations. With certifications in Data Analytics, Java Programming, Android Studios, Python Programming, and MySQL Basics, I possess a diverse skill set that enables me to tackle complex challenges with confidence. Moreover, my experience in event management and positions of responsibility at Swami Vivekananda College reflects my leadership abilities, adaptability, and effective communication skills. I am eager to continue learning, growing, and making meaningful contributions in the ever-evolving field of software development..</p>
+                </div>
+                <div>
+                    <img src="profile-pic.jpg" alt="Profile Picture" class="rounded-full w-48 mx-auto md:mx-0">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+
+  
+
+
+    <section id="contact" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">Contact Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <p class="text-gray-800">Feel free to reach out to me through the following channels:</p>
+                    <ul class="mt-4">
+                        <p><strong>Email:</strong>sumedhghodke731@gmail.com</p>
+                    <p><strong>Phone:</strong> 779 676 6380</p>
+                    <p><strong>Location:</strong> Borivali, Mumbai</p>
+                       
+                        <!-- Add more contact details as needed -->
+                    </ul>
+                </div>
+                <div>
+                    <!-- Contact Form (Add JavaScript functionality) -->
+
+                    
+                    <form id="contact-form" class="max-w-lg mx-auto">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-800">Your Name:</label>
+                            <input type="text" id="name" name="name" class="form-input mt-1 block w-full" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-800">Your Email:</label>
+                            <input type="email" id="email" name="email" class="form-input mt-1 block w-full" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-800">Message:</label>
+                            <textarea id="message" name="message" class="form-textarea mt-1 block w-full" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-6">
+    <div class="container mx-auto flex flex-wrap justify-between">
+        <!-- About Me -->
+        <div class="w-full md:w-1/3 text-center md:text-left md:pr-4">
+            <h3 class="text-lg font-semibold">About Me</h3>
+            <p class="mt-2">I bring a potent blend of technical expertise and creative problem-solving to every project. With a solid foundation in computer science and a passion for innovation, I thrive in dynamic environments where I can drive impactful change. My proactive approach, coupled with excellent communication and collaboration skills, ensures smooth project execution and delivers results that exceed expectations. I am committed to continuous learning and growth, making me a valuable asset to any team aiming to tackle complex challenges and achieve success.</p>
+        </div>
+        <!-- Contact Me -->
+        <div class="w-full md:w-1/3 text-center md:px-4 mt-4 md:mt-0">
+            <h3 class="text-lg font-semibold">Contact Me</h3>
+            <p class="mt-2">Feel free to reach out to me via email or phone.</p>
+            <p class="mt-2">Email: <a href="sumedhghodke731@gmail.com" class="text-blue-400 hover:underline">sumedhghodke731@gmail.com</a></p>
+            <p class="mt-2">Phone: <span class="text-blue-400">779-676-6380</span></p>
+        </div>
+        <!-- Social Media -->
+        <div class="w-full md:w-1/3 text-center md:text-right md:pl-4">
+            <h3 class="text-lg font-semibold">Follow Me</h3>
+            <div class="flex justify-center md:justify-end mt-2">
+                <a href="#" class="text-blue-400 hover:text-blue-300 mx-2"><i class="fab fa-twitter"></i></a><br>
+                <a href="#" class="text-blue-400 hover:text-blue-300 mx-2"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-blue-400 hover:text-blue-300 mx-2"><i class="fab fa-github"></i></a>
+                <!-- Add more social media icons as needed -->
+            </div>
+        </div>
+    </div>
+    <hr class="border-gray-800 my-4">
+    <p class="text-center">&copy; 2024 My Portfolio. All rights reserved.</p>
+</footer>
+</body>
+</html>
+               
